@@ -1,0 +1,15 @@
+---
+Test
+---
+!define TEST_SYSTEM {slim}
+
+!path /opt/fitnesse/Classes
+ 
+|import|
+|fixtures|
+|shop|
+
+!|Order One Product                     	 |
+|Name 		|Price		|Quantity	|total? |
+|Bread		|20.0       	|2		|40.0   |    
+|Jam		|80.0       	|1		|80.0   |
