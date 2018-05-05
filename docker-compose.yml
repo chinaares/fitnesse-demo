@@ -6,3 +6,4 @@ services:
       - "8080:8080"
     volumes:
       - "./FitNesseRoot:/opt/fitnesse/FitNesseRoot"
+      - "./CodeUnderTest/target/classes:/opt/fitnesse/Classes"

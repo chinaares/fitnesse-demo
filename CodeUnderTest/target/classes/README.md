@@ -1,0 +1,1 @@
+Classes compiled to this directory would be mapped to `/opt/fitnesse/Classes` of the container
