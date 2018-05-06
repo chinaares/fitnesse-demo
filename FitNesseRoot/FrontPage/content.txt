@@ -1,3 +1,4 @@
 !1 My FitNesse Demo
 
-OrderingProduct
+- OrderingProduct
+- SimpleLogin
