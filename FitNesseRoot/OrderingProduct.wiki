@@ -9,10 +9,16 @@ Test
 |fixtures|
 |shop|
 
+!3 Decision Table
+
 !|Order One Product                     	 |
 |Name 		|Price		|Quantity	|total? |
 |Bread		|20.0       	|2		|40.0   |    
 |Jam		|80.0       	|1		|80.0   |
+|Butter		|60.0			|1		|60.0	|
+|Nutella	|160.0			|2		|320.0	|
+
+!3 Script Table
 
 !|script 		|Order Many Products    |
 |add product name |Bread | and price | 20.0 |
