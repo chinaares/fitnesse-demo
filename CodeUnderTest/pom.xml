@@ -19,4 +19,12 @@
             </plugin>
         </plugins>
     </build>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.fitnesse</groupId>
+            <artifactId>fitnesse</artifactId>
+            <version>20180127</version>
+        </dependency>
+    </dependencies>
 </project>

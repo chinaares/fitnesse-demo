@@ -1,4 +1,5 @@
 !1 My FitNesse Demo
 
+- AtmUsage
 - OrderingProduct
 - SimpleLogin
