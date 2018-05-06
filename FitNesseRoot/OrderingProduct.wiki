@@ -21,8 +21,10 @@ Test
 !3 Script Table
 
 !|script 		|Order Many Products    |
-|add product name |Bread | and price | 20.0 |
-|add product name |Jam   | and price | 80.0 |
+|add product name |Bread | and price | 20.0 | and stock quantity | 10 |
+|add product name |Jam   | and price | 80.0 | and stock quantity | 20 |
 |order 		|Bread | of | 2 |
+|check      |stock quantity |Bread | 8 |
 |order 		|Jam   | of | 1 |
+|check      |stock quantity |Jam | 19 |
 |check 		|total | 120.0  |

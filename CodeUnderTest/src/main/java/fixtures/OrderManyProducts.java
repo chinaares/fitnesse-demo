@@ -12,13 +12,18 @@ public class OrderManyProducts {
         order = new Order();
     }
 
-    public void addProductNameAndPrice(String name, double price) {
-        catalog.addProduct(name, price);
+    public void addProductNameAndPriceAndStockQuantity(String name, double price, int stockQuantity) {
+        catalog.addProduct(name, price, stockQuantity);
     }
 
     public void orderOf(String name, int quantity) {
         Product prod = catalog.getProduct(name);
         order.addItem(prod, quantity);
+    }
+
+    public int stockQuantity(String name) {
+        Product prod = catalog.getProduct(name);
+        return prod.getStockQuantity();
     }
 
     public double total() {

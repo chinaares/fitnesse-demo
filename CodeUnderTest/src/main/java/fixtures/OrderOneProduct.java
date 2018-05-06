@@ -23,7 +23,7 @@ public class OrderOneProduct {
 
     public double total() {
         Order order = new Order();
-        Product prod = new Product(name, price);
+        Product prod = new Product(name, price, quantity);
         order.addItem(prod, quantity);
         return order.getTotal();
     }
