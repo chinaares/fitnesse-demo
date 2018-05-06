@@ -13,3 +13,10 @@ Test
 |Name 		|Price		|Quantity	|total? |
 |Bread		|20.0       	|2		|40.0   |    
 |Jam		|80.0       	|1		|80.0   |
+
+!|script 		|Order Many Products    |
+|add product name |Bread | and price | 20.0 |
+|add product name |Jam   | and price | 80.0 |
+|order 		|Bread | of | 2 |
+|order 		|Jam   | of | 1 |
+|check 		|total | 120.0  |
